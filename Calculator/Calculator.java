@@ -12,6 +12,7 @@ public class Calculator {
 
     UnaryOperator<Integer> pow = x -> x * x;
     UnaryOperator<Integer> abs = x -> {
+        // изначально не было скобок и return, можно было заменить на math.abs
         return x > 0 ? x : x * -1;
     };
 

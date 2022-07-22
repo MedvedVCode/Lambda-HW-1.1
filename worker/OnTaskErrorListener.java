@@ -1,4 +1,4 @@
-package Worker;
+package worker;
 
 @FunctionalInterface
 public interface OnTaskErrorListener {

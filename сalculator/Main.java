@@ -1,4 +1,4 @@
-package Calculator;
+package сalculator;
 
 public class Main {
     public static void main(String[] args) {

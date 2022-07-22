@@ -1,4 +1,4 @@
-package Worker;
+package worker;
 public class Main {
     public static void main(String[] args)  throws InterruptedException {
         OnTaskDoneListener listener = System.out::println;

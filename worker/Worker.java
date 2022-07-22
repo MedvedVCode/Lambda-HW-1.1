@@ -1,4 +1,4 @@
-package Worker;
+package worker;
 
 public class Worker {
     private OnTaskDoneListener callback;
@@ -12,10 +12,10 @@ public class Worker {
     public void start() throws InterruptedException {
         for (int i = 0; i < 100; i++) {
             if (i != 33) {
-                callback.OnDone("Задача " + i + " выполнена!");
+                callback.OnDone("пїЅпїЅпїЅпїЅпїЅпїЅ " + i + " пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!");
                 Thread.sleep(75);
             } else {
-                errorCallback.onError("Задача " + i + " не выполнена!");
+                errorCallback.onError("пїЅпїЅпїЅпїЅпїЅпїЅ " + i + " пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!");
                 Thread.sleep(3000);
             }
         }
